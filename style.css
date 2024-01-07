@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+background-color: yellow;
+height: 60px;
+width: auto;
+display: flex;
+justify-content: end;
+}
+.image {
+background-image: url("/bg.svg");
+height: 57px;
+width: 57px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.Welcome {
+
+
+}
+.button {
+   color: yellow;
+   background-color: black; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+   font-size: medium;
+   border-radius: 50px;
+}
+.or{
+    color: grey;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label {
+    color: grey;
+    font-size: 12px;
+}
+input {
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    color: grey;
+}
+.forget {
+    width: 100%;
+    text-align: right;
+    color: blue;
+    font-size:12px;
+}
+.login {
+    color: white;
+    background-color: grey;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
