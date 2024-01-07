@@ -62,7 +62,7 @@ input {
     color: blue;
     font-size:12px;
 }
-.login {
+#login {
     color: white;
     background-color: grey;
     margin-top: 15px;
