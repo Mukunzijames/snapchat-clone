@@ -75,7 +75,7 @@ input {
 }
 .Sign{
     color: black;
-    font-weight: bold;
+    font-weight: 900;
 } 
 
 @media (min-width:560px){
